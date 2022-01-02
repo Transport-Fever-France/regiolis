@@ -1,0 +1,86 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 0.10000000149012, 1.4235482215881, 1.3225493431091, },
+		bbMin = { -0.10000000149012, -1.423547744751, -0.040093123912811, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 1.942102432251, 1.4235479831696, 0.68132126331329, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/train/regiolis/bogie/bogie.mtl", },
+						mesh = "vehicle/train/regiolis/bogie/whell_lod0.msh",
+						name = "whell",
+						transf = { 1, 0, 0, 0, 0, 6.1232342629258e-17, -1, 0, 0, 1, 6.1232342629258e-17, 0, -49.805061340332, 5.7764639854431, 0.67119693756104, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 705.7841796875,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 2014,
+			yearTo = 0,
+		},
+		cost = {
+			price = -1,
+			priceScale = 1,
+		},
+		description = {
+			name = _("Alstom Regiolis Neutre"),
+		},
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+		maintenance = {
+			lifespan = 36525,
+			runningCostScale = 1,
+			runningCosts = -1,
+		},
+		railVehicle = {
+			blinkInterval = 500,
+			configs = { },
+			engines = { },
+			soundSet = {
+				horn = "",
+				name = "waggon_modern",
+			},
+			topSpeed = 44.430000305176,
+			weight = 3,
+		},
+		transportVehicle = {
+			carrier = "RAIL",
+			compartmentsList = {
+				{
+					loadConfigs = {
+						{
+							cargoEntries = { },
+							toHide = { },
+						},
+					},
+				},
+			},
+			groupFileName = "",
+			loadSpeed = 1,
+			multipleUnitOnly = true,
+			reversible = true,
+		},
+	},
+	version = 1,
+}
+end

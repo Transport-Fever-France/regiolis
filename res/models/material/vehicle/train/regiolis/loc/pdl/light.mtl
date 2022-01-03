@@ -1,0 +1,28 @@
+function data()
+return {
+	order = 0,
+	params = {
+		emissive_scale = {
+			emissiveScale = { 255, 255, 255, },
+		},
+		fade_out_range = {
+			fadeOutEndDist = 20000,
+			fadeOutStartDist = 10000,
+		},
+		map_emissive = {
+			fileName = "models/vehicle/train/regiolis/regio_car_1/light_albedo_opacity.tga",
+			type = "TWOD",
+		},
+		polygon_offset = {
+			factor = 0,
+			forceDepthWrite = false,
+			units = 0,
+		},
+		two_sided = {
+			flipNormal = true,
+			twoSided = false,
+		},
+	},
+	type = "EMISSIVE",
+}
+end
